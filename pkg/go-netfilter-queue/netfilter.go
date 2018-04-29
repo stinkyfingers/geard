@@ -32,9 +32,9 @@ package netfilter
 import "C"
 
 import (
-	"code.google.com/p/gopacket"
-	"code.google.com/p/gopacket/layers"
 	"fmt"
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
 	"unsafe"
 )
 
